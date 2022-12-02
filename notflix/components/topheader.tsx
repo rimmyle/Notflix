@@ -18,13 +18,17 @@ function Topheader() {
                         <div className={styles['select-wrapper']}>
                             <Dropdown>
                                 <Dropdown.Button flat>English</Dropdown.Button>
-                                <Dropdown.Menu aria-label="Static Actions">
+                                <Dropdown.Menu aria-label="Static Actions"
+                                selectionMode = "single">
                                     <Dropdown.Item key="english">English</Dropdown.Item>
                                     <Dropdown.Item key="lol">A Different Language</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                         </div>
                     </div>
+
+                    <a href="" className={styles['sign-in-button']}>Sign In</a>
+
                     
                 </div>
                 

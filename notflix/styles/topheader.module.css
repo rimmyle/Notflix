@@ -1,3 +1,7 @@
+.select-container {
+    margin-right: 1.5rem;
+}
+
 .wrapper {
     background-color: transparent;
     bottom:0;
@@ -31,6 +35,18 @@
   width: 8rem;
   height: 2.75rem;
   position: relative;
+}
+
+.sign-in-button {
+    background-color: #e50914;
+    float: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
 }
 
 
