@@ -21,10 +21,10 @@ export default function Home() {
           <button>Get started</button>
         </section>
 
-        <section className={styles.tv}>
-          <h1>Enjoy on your TV.</h1>
+        <section className={styles.enjoy}>
+          <h1 className={styles['our-story-card-title']}>Enjoy on your TV.</h1>
           <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
-          
+          <div className={styles.tv}></div>
         </section>
 
         <h1 className={styles.title}>Sign In</h1>

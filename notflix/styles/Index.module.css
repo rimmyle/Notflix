@@ -2,12 +2,17 @@
     padding: 0 2rem;
   }
 
+  .enjoy {
+    display: flex;
+    
+  }
   .tv {
     background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
   }
   
-  
-  
+  .our-story-card-title {
+    font-size: 1.75rem;
+  }
   .main {
     min-height: 100vh;
     padding: 4rem 0;
