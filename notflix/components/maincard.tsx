@@ -15,10 +15,19 @@ function MainCard() {
                         </div>
                     </div>
                 </div>
+                <div className={styles['maincard-text']}>
+                    <h1 className={styles.title}>
+                        Unlimited moves, TV shows, and more.
+                    </h1>
+                    <h2 className={styles.subtitle}>
+                        Watch anywhere. Cancel anytime.
+                    </h2>
+                </div>
+
                 
             <section>
-          <h1>Unlimited moves, TV shows, and more.</h1>
-          <h2>Watch anywhere. Cancel anytime.</h2>
+          
+          
           <h2>Ready to watch? Enter your email to create or restart your membership.</h2>
           <input></input>
           <button>Get started</button>
