@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Advert from '../components/advert'
 import styles from '../styles/index.module.css'
+import Topheader from '../components/topheader'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <div className={styles["notflix-sans-font-loaded"]}>
           <div className={styles.container} dir="ltr">
             {Advert()}
+            {Topheader()}
           </div>
         
         <section>
