@@ -7,12 +7,15 @@ function MainCard() {
     return(
         <>
             <div className={styles['main-container']}>
-                <div className={styles['background-container']}>
-                    <div className={styles['image-wrapper']}>
-                        <Image className={styles['background-image']} src={background} alt="background image" sizes="100vw"/>
-                        <div className={styles.gradient}></div>
+                <div className={styles['card-container']}>
+                    <div className={styles['background-container']}>
+                        <div className={styles['image-wrapper']}>
+                            <Image className={styles['background-image']} src={background} alt="background image" sizes="100vw"/>
+                            <div className={styles.gradient}></div>
+                        </div>
                     </div>
                 </div>
+                
             <section>
           <h1>Unlimited moves, TV shows, and more.</h1>
           <h2>Watch anywhere. Cancel anytime.</h2>

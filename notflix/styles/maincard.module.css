@@ -43,3 +43,13 @@
     right: 0;
     top: 0;
 }
+
+.maincard-text {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
