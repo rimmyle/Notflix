@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Advert from '../components/advert'
 import styles from '../styles/index.module.css'
 import Topheader from '../components/topheader'
+import MainCard from '../components/maincard'
 
 
 export default function Home() {
@@ -17,15 +18,10 @@ export default function Home() {
           <div className={styles.container} dir="ltr">
             {Advert()}
             {Topheader()}
+            {MainCard()}
           </div>
         
-        <section>
-          <h1>Unlimited moves, TV shows, and more.</h1>
-          <h2>Watch anywhere. Cancel anytime.</h2>
-          <h2>Ready to watch? Enter your email to create or restart your membership.</h2>
-          <input></input>
-          <button>Get started</button>
-        </section>
+        
 
         <section className={styles.enjoy}>
           <h1 className={styles['our-story-card-title']}>Enjoy on your TV.</h1>
