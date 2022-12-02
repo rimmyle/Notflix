@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Index.module.css'
+import Advert from '../components/advert'
+import styles from '../styles/index.module.css'
+
 
 export default function Home() {
   return (
@@ -11,11 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <div className={styles["notflix-sans-font-loaded"]}>
-          <div className={styles['our-story-container']}></div>
-        <div className={styles['mobile-plan-banner-container']}>
-          <div>New!</div>
+          <div className={styles.container} dir="ltr">
+            {Advert()}
+          </div>
         
-        </div>
         <section>
           <h1>Unlimited moves, TV shows, and more.</h1>
           <h2>Watch anywhere. Cancel anytime.</h2>

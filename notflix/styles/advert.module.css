@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+    margin-bottom: 1rem;
+    min-height: 4rem;
+}
+
+.badge-me {
+    background-color: #e50914;
+    border-radius: 17px;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    margin: 0.5rem 1rem;
+    padding: 0.2rem 0.5rem;
+    text-transform: uppercase;
+}
