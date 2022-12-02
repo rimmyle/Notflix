@@ -7,6 +7,16 @@
     min-height: 4rem;
 }
 
+.ad-text {
+    color:black;
+    font-size: 1.1rem;
+}
+
+.price-text {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
 .badge-me {
     background-color: #e50914;
     border-radius: 17px;
