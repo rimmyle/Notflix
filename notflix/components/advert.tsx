@@ -1,4 +1,5 @@
 import styles from '../styles/advert.module.css'
+import Image from 'next/image'
 
 function Advert () {
     return(
@@ -12,7 +13,9 @@ function Advert () {
             </span>
           </div>
           <div className={styles['learn-button-container']}>
-            
+            <a className={styles['button-element']} href=""> 
+                Learn nothing
+            </a>
           </div>
         </div>
 

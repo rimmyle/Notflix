@@ -27,3 +27,21 @@
     padding: 0.2rem 0.5rem;
     text-transform: uppercase;
 }
+
+.button-element {
+    display: flex;
+    font-weight:700;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.learn-button-container {
+    border: 0;
+    color: #0071eb;
+    margin-left: 0;
+    box-shadow: none;
+    font-weight: 600;
+    padding-left: 1rem;
+}
