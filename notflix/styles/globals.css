@@ -6,6 +6,14 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+#main-header {
+  color: red;
+  font-size: 55px;
+  
+}
+
+
+
 a {
   color: inherit;
   text-decoration: none;
@@ -21,6 +29,6 @@ a {
   }
   body {
     color: white;
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/015e0890-0eae-45cb-8256-3a3d36446dfe/US-en-20221128-popsignuptwoweeks-perspective_alpha_website_large.jpg");;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/015e0890-0eae-45cb-8256-3a3d36446dfe/US-en-20221128-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   }
 }
