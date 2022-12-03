@@ -61,3 +61,8 @@
 .subtitle {
     font-size: 1.625rem;
 }
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+}

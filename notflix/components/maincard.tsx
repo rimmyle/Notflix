@@ -17,11 +17,16 @@ function MainCard() {
                 </div>
                 <div className={styles['maincard-text']}>
                     <h1 className={styles.title}>
-                        Unlimited moves, TV shows, and more.
+                        Unlimited movies, TV shows, and more.
                     </h1>
                     <h2 className={styles.subtitle}>
                         Watch anywhere. Cancel anytime.
                     </h2>
+                    <form className={styles['email-form']}>
+                        <h3 className={styles['email-form-title']}>
+                            Ready to watch? Enter your email to create or restart your membership.
+                        </h3>
+                    </form>
                 </div>
 
                 
