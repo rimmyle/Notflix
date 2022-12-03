@@ -1,0 +1,15 @@
+.tv-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: black;
+}
+
+.tv {
+    position: relative;
+    height: 398px;
+    width: 530px;
+    margin-bottom: 50px;
+}

@@ -15,6 +15,7 @@ function MainCard() {
                         </div>
                     </div>
                 </div>
+
                 <div className={styles['maincard-text']}>
                     <h1 className={styles.title}>
                         Unlimited movies, TV shows, and more.
@@ -26,19 +27,11 @@ function MainCard() {
                         <h3 className={styles['email-form-title']}>
                             Ready to watch? Enter your email to create or restart your membership.
                         </h3>
+                        <input></input>
+                         <button>Get started</button>
                     </form>
                 </div>
-
-                
-            <section>
-          
-          
-          <h2>Ready to watch? Enter your email to create or restart your membership.</h2>
-          <input></input>
-          <button>Get started</button>
-        </section>
             </div>
-
         </>
     )
 }

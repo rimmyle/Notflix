@@ -4,6 +4,7 @@ import Advert from '../components/advert'
 import styles from '../styles/index.module.css'
 import Topheader from '../components/topheader'
 import MainCard from '../components/maincard'
+import tv from '../components/tv'
 
 
 export default function Home() {
@@ -19,15 +20,9 @@ export default function Home() {
             {Advert()}
             {Topheader()}
             {MainCard()}
+            {tv()}
           </div>
-        
-        
 
-        <section className={styles.enjoy}>
-          <h1 className={styles['our-story-card-title']}>Enjoy on your TV.</h1>
-          <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
-          <div className={styles.tv}></div>
-        </section>
 
         <h1 className={styles.title}>Sign In</h1>
         <input></input>
