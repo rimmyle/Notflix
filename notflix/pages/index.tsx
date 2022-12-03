@@ -22,23 +22,7 @@ export default function Home() {
             {MainCard()}
             {tv()}
           </div>
-
-
-        <h1 className={styles.title}>Sign In</h1>
-        <input></input>
-        <input></input>
-        <button>Sign In</button>
-        <a href="">Need help?</a>
-        
-        <p className={styles.description}>New to Notflix? <a href="">Sign up now.</a>
-        </p>
-
-        <p>This page is protected by literally nothing, please be nice <a href="">Learn nothing.</a></p>
         </div>
-        
-
-      
-      <header>NOTFLIX</header>
     </>
   )
 }

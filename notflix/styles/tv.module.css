@@ -1,15 +1,36 @@
 .tv-container {
     display: flex;
-    flex-direction: row;
+    flex-flow: wrap-reverse;
     justify-content: center;
     align-items: center;
     color: #fff;
     background-color: black;
+    padding-bottom: 50px;
 }
 
 .tv {
     position: relative;
-    height: 398px;
-    width: 530px;
-    margin-bottom: 50px;
+    min-height: 398px;
+    min-width: 530px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1.625rem;
+    font-weight: 415;
+    word-wrap: normal;
+}
+
+.text-container {
+    width: 25%;
+    margin: -5% 0;
+    margin-right: 2vw;
+}
+
+.video {
+    padding-top: 50px
 }
