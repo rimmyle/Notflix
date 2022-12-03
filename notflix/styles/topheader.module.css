@@ -34,8 +34,8 @@
 }
 
 .logo {
-  width: 7vw;
-  height: 2.5vw;
+  min-width: 7rem;
+  min-height: 2.5rem;
   position: relative;
 }
 

@@ -29,9 +29,10 @@
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    transform: scale(1.25) translateY(-10%);
-    width: 100%;
-    color:transparent;
+    width: auto;
+    max-width: 100%;
+    border: 0;
+    transform: none;
 }
 
 .gradient {
@@ -56,6 +57,8 @@
 
 .title {
     font-size: 4rem;
+    min-width: 45rem;
+    min-height: 20rem;
 }
 
 .subtitle {
@@ -67,9 +70,3 @@
     flex-direction: column;
 }
 
-.tv-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
