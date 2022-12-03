@@ -1,12 +1,19 @@
 .tv-container {
-    display: flex;
-    flex-flow: wrap-reverse;
-    justify-content: center;
-    align-items: center;
+    
     color: #fff;
     background-color: black;
     padding-bottom: 50px;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 
 .tv {
     position: relative;
@@ -15,6 +22,7 @@
 }
 
 .title {
+    white-space: nowrap;
     font-size: 3rem;
     font-weight: 600;
 }
@@ -26,9 +34,9 @@
 }
 
 .text-container {
-    width: 25%;
+    width: 52%;
     margin: -5% 0;
-    margin-right: 2vw;
+    padding: 0 3rem 0 0;
 }
 
 .video {
